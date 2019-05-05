@@ -1,0 +1,32 @@
+{
+  "name": "component-source",
+  "version": "1.0.0",
+  "description": "Storybook addon to view your component source.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js --mode production",
+    "dev": "webpack --watch --config ./webpack.config.js --mode development"
+  },
+  "keywords": ["vue", "storybook", "source", "storybook addon"],
+  "author": "Ashish Mishra",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addons": "^5.0.11",
+    "@storybook/core-events": "^5.0.11",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-syntax-highlighter": "10.2.1"
+  }
+}
