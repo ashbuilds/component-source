@@ -4,7 +4,7 @@ Storybook Addon Component source allows you to view your component template in [
 
 Framework Support : Vue, React(Coming soon...)
 
-![Storybook Addon Notes Demo](docs/demo.png)
+![Storybook Addon Notes Demo](https://github.com/ashtagged/component-source/blob/master/dist/sceenshot.jpg)
 
 ## Getting Started
 
